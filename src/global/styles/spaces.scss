@@ -1,0 +1,42 @@
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.ph-20 {
+  padding: 0 20px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.hr {
+  margin: 100px auto 0;
+  background: var(--color-primary400);
+  width: 100%;
+  max-width: 600px;
+  min-width: 400px;
+  height: 1.5px;
+  border: none;
+
+  @media (max-width: 440px) {
+    min-width: 240px;
+    width: 80%;
+  }
+}

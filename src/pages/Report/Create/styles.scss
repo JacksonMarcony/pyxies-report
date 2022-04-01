@@ -1,0 +1,39 @@
+#register-report-container {
+    width: 640px;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+
+    .start-pub {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        button {
+            border-radius: 50px;
+            border: 2px solid #ccc;
+            width: calc(100% - 70px);
+            padding: 15px 20px;
+
+            font-size: 18px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--color-text-read);
+
+            cursor: pointer;
+        }
+    }
+}
